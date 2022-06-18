@@ -72,6 +72,10 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* ----------HEADER---------- */
 
+.header {
+    border-bottom: 1px solid #ECECEC;
+}
+
 .main-nav {
     display: flex;
     align-items: center;
@@ -180,7 +184,8 @@ h1, h2, h3, h4, h5, h6, p {
 /* ----------SECTION---------- */
 
 .section {
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .section-title {
@@ -241,10 +246,6 @@ h1, h2, h3, h4, h5, h6, p {
     margin-bottom: 0;
 
     height: 648px;
-}
-
-.team .section-title {
-    padding-top: 94px;
 }
 
 .team-list {
@@ -320,6 +321,11 @@ h1, h2, h3, h4, h5, h6, p {
 
 /* ---------- СТИЛІ ДЛЯ PORTFOLIO.HTML---------- */
 
+.portfolio-section {
+    margin-top: 94px;
+    margin-bottom: 94px;
+}
+
 .buttons-list {
     display: flex;
     justify-content: center;
@@ -366,10 +372,24 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .our-works .item:nth-last-child(-n + 3) {
-    margin-bottom: 94px;
+    margin-bottom: 0px;
+}
+
+.our-works .description {
+    border: 1px solid #EEEEEE;
+    padding-top: 20px;
+    padding-bottom: 26px;
+    padding-left: 24px;
+
+}
+
+.our-works img {
+    display: block;
 }
 
 .our-works .titles {
+    margin-bottom: 4px;
+
     color: var(--title-text-color);
     font-size: 18px;
     line-height: 2;
